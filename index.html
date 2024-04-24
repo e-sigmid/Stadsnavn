@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Differanse i antall tegn</title>
+</head>
+<body>
+    <h1>Stadsnavn, med brukerinput</h1>
+    <div id="inputForm">
+        <label for="city1">Første sted:</label>
+        <input type="text" id="city1" required>
+        <br>
+        <label for="city2">Andre sted:</label>
+        <input type="text" id="city2" required>
+        <br>
+        <button onclick="calculateDifference()">Beregn differanse</button>
+    </div>
+    <div id="result" style="display:none;">
+        <p>Differansen i antall tegn er: <span id="output"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
